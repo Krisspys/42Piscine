@@ -15,26 +15,26 @@ Cosas a saber si es la primera vez que programas:
 
 En este caso,  num1, num2 y resultado son variables.ç
   
-  -> Tipo de variables:
+  - Tipo de variables:
      
-      -> int: Números enteros
+      * int: Números enteros
      
-      -> char: Carácter (mirar tabla ascii)
+      * char: Carácter (mirar tabla ascii)
       
-      -> String (Ya veras como se definen): Cadena de carácteres ("Hello", con char necesaritarias 4 varriables, con String solo una)
+      * String (Ya veras como se definen): Cadena de carácteres ("Hello", con char necesaritarias 4 varriables, con String solo una)
       
-      -> float: Números con decimal
+      * float: Números con decimal
       
-      -> Muchos más ...
+      * Muchos más ...
   
-  -> Estructura:
+  - Estructura:
     
     tipoVariable nombreVariable;
 
 
 -> Main es la función principal, es necesaria para poder ejecutar un programa, por lo que cuando vayas a probar tu código deberá estar presente
   
-   -> Siempre tiene la misma estructura:
+   - Siempre tiene la misma estructura:
       int main (void)
       {
         //Lineas de código
@@ -46,7 +46,7 @@ En este caso,  num1, num2 y resultado son variables.ç
 
 -> A parte de main, en los programas pueden haber otras funciones
    
-   -> Su estructura es la siguiente:
+   - Su estructura es la siguiente:
       
       void/ int/ char/ ... nombreFuncion (tipo nombreParametro1, tipo nombreParametro2, ...)
       {
@@ -54,7 +54,7 @@ En este caso,  num1, num2 y resultado son variables.ç
         return (x) //En caso de no ser tipo void
       }
     
-    -> Para llamar a una función desde otra:
+    - Para llamar a una función desde otra:
         nombreFuncion (valorParametro1, valorParametro2, ...);
 
 
